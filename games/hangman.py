@@ -3,7 +3,7 @@
 import random
 
 GAME_NAME = "행맨"
-WORDS = ("apple", "banana", "python", "school", "computer", "window")
+WORDS = ("apple", "banana", "python", "school", "computer", "window", "keyboard", "monitor", "coffee", "github")
 MAX_CHANCES = 6
 
 
