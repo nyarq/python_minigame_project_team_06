@@ -9,6 +9,20 @@ import random
 
 GAME_NAME = "가위바위보"
 CHOICES = {"1": "가위", "2": "바위", "3": "보"}
+ART = {
+    "가위": """
+  ✌
+ 가위
+""",
+    "바위": """
+  ✊
+ 바위
+""",
+    "보": """
+  ✋
+  보
+""",
+}
 
 
 def decide(player: str, computer: str) -> str:
@@ -30,7 +44,7 @@ def play() -> None:
 
     print(f"\n[{GAME_NAME}] 3판 2선승입니다.")
     while player_wins < 2 and computer_wins < 2:
-        choice = input("1. 가위  2. 바위  3. 보: ").strip()
+        choice = input("1. ✌ 가위  2. ✊ 바위  3. ✋ 보: ").strip()
         player = CHOICES.get(choice)
         if player is None:
             print("1, 2, 3 중에서 선택하세요.")
@@ -38,7 +52,8 @@ def play() -> None:
 
         computer = random.choice(list(CHOICES.values()))
         result = decide(player, computer)
-        print(f"나: {player} / 컴퓨터: {computer}")
+        print("\n나의 선택:", ART[player], sep="")
+        print("컴퓨터의 선택:", ART[computer], sep="")
 
         if result == "draw":
             print("무승부입니다. 다시 진행합니다.")
