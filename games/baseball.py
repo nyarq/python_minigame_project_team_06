@@ -28,6 +28,9 @@ def play() -> None:
 
     for attempt in range(1, 10):
         guess = input(f"[{attempt}/9] 숫자 3개를 입력하세요: ")
+        if len(guess) != 3 or not guess.isdigit() or len(set(guess)) != 3:
+            print("서로 다른 숫자 3개를 입력하세요.")
+            continue
 
         strike, ball = judge(answer, guess)
         print(f"{strike} 스트라이크, {ball} 볼")
