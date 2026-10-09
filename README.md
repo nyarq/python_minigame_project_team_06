@@ -18,7 +18,7 @@ python main.py
 | 역할 | 이름 | GitHub ID | 담당 |
 |---|---|---|---|
 | A | | | 팀장 · `main.py`, `utils.py`, README, 병합 관리 |
-| B | | | `games/hangman.py` (행맨) |
+| B | 이승재 | foam0315 | `games/hangman.py` (행맨) |
 | C | | | `games/baseball.py` (숫자 야구) |
 | D | | | `games/rps.py` (가위바위보) |
 | E | | | `games/tictactoe.py` (틱택토) |
@@ -27,7 +27,7 @@ python main.py
 
 | 게임 | 설명 | 상태 |
 |---|---|---|
-| 행맨 | | 🚧 |
+| 행맨 | 영어 알파벳을 입력해 숨겨진 단어를 맞히는 게임 | 🚧 |
 | 숫자 야구 | | 🚧 |
 | 가위바위보 | | 🚧 |
 | 틱택토 | | 🚧 |
