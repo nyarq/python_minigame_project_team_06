@@ -21,7 +21,7 @@ python main.py
 | B | | | `games/hangman.py` (행맨) |
 | C | | | `games/baseball.py` (숫자 야구) |
 | D | | | `games/rps.py` (가위바위보) |
-| E | | | `games/tictactoe.py` (틱택토) |
+| E | 김다현 | dreamingh07 | `games/tictactoe.py` (틱택토) |
 
 ## 게임 목록
 
@@ -30,7 +30,7 @@ python main.py
 | 행맨 | | 🚧 |
 | 숫자 야구 | | 🚧 |
 | 가위바위보 | | 🚧 |
-| 틱택토 | | 🚧 |
+| 틱택토 |3×3 칸에 O와 X를 번갈아 표시하여한 줄을 먼저 완성하는 게임 | 🚧 |
 
 ## 협업 규칙
 
