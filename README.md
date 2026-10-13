@@ -18,16 +18,16 @@ python main.py
 | 역할 | 이름 | GitHub ID | 담당 |
 |---|---|---|---|
 | A | | | 팀장 · `main.py`, `utils.py`, README, 병합 관리 |
-| B | | | `games/hangman.py` (행맨) |
+| B | 이승재 | foam0315 | `games/hangman.py` (행맨) |
 | C | | | `games/baseball.py` (숫자 야구) |
-| D | | | `games/rps.py` (가위바위보) |
+| D | 변시우 | byunsiwoo106-pixel | `games/rps.py` (가위바위보) |
 | E | 김다현 | dreamingh07 | `games/tictactoe.py` (틱택토) |
 
 ## 게임 목록
 
 | 게임 | 설명 | 상태 |
 |---|---|---|
-| 행맨 | | 🚧 |
+| 행맨 | 영어 알파벳을 입력해 숨겨진 단어를 맞히는 게임 | 🚧 |
 | 숫자 야구 | | 🚧 |
 | 가위바위보 | | 🚧 |
 | 틱택토 |3×3 칸에 O와 X를 번갈아 표시하여 한 줄을 먼저 완성하는 게임 | 🚧 |
