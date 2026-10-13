@@ -17,7 +17,7 @@ python main.py
 
 | 역할 | 이름              | GitHub ID          | 담당                                            |
 | ---- | ----------------- | ------------------ | ----------------------------------------------- |
-| A    |                   |                    | 팀장 · `main.py`, `utils.py`, README, 병합 관리 |
+| A    | 박채환               | nyarq              | 팀장 · `main.py`, `utils.py`, README, 병합 관리 |
 | B    | 이승재            | foam0315           | `games/hangman.py` (행맨)                       |
 | C    | 유수포프 사이드한 | Seidkhan-Yusupov   | `games/baseball.py` (숫자 야구)                 |
 | D    | 변시우            | byunsiwoo106-pixel | `games/rps.py` (가위바위보)                     |
